@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dron" />
+		<Option pch_mode="2" />
+		<Option compiler="cygwin" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dron" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dron" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic" />
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+			<Add option="-c" />
+			<Add option="-lpthread" />
+		</Compiler>
+		<Unit filename="Bryla.hh" />
+		<Unit filename="Dr3D_gnuplot_api.cpp" />
+		<Unit filename="Dr3D_gnuplot_api.hh" />
+		<Unit filename="Draw3D_api_interface.hh" />
+		<Unit filename="InterfejsRysowania.hh" />
+		<Unit filename="Makefile" />
+		<Unit filename="Plaszczyzna.cpp" />
+		<Unit filename="Plaszczyzna.hh" />
+		<Unit filename="Prostopadloscian.cpp" />
+		<Unit filename="Prostopadloscian.hh" />
+		<Unit filename="Przeszkoda.cpp" />
+		<Unit filename="Przeszkoda.hh" />
+		<Unit filename="SMacierz.hh" />
+		<Unit filename="SWektor.hh" />
+		<Unit filename="Wektor3D.hh" />
+		<Unit filename="ZbiorWierzcholkow.cpp" />
+		<Unit filename="ZbiorWierzcholkow.hh" />
+		<Unit filename="Zbiornik.cpp" />
+		<Unit filename="Zbiornik.hh" />
+		<Unit filename="dron.cpp" />
+		<Unit filename="dron.hh" />
+		<Unit filename="example.cpp" />
+		<Unit filename="graniastoslup6.cpp" />
+		<Unit filename="graniastoslup6.hh" />
+		<Unit filename="linia.cpp" />
+		<Unit filename="linia.hh" />
+		<Unit filename="rozmiar.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
